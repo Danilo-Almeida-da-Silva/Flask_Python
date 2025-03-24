@@ -6,21 +6,22 @@ Essa é uma API simples feita com Flask e SQLite para fins de estudo da escola V
 
 1. Faça o clone do reposítorio:
 
-```Bash 
+```Bash
 git clone <Link_do_reposítorio>
 cd Nome_do_projeto
 ```
 
-
 2. criar um ambiente virtual (Obrigatório):
 
 **Windows**
+
 ```bash
 python -m venv venv
 source venv/Scripts/activate
 ```
 
 **Linux/Mac**
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -47,11 +48,12 @@ python app.py
 Endpoint para cadastro das informações dos livros doados.
 
 **Envio (JSON)**
+
 ```json
 {
-    "titulo":"Ainda estou devendo aqui",
-    "categoria":"Drama/Finanças",
-    "autor":"Fernando Polia",
-    "image_url":"https://exemplo.com"
+  "titulo": "Ainda estou devendo aqui",
+  "categoria": "Drama/Finanças",
+  "autor": "Fernando Polia",
+  "image_url": "https://exemplo.com"
 }
 ```
