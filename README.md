@@ -57,3 +57,28 @@ Endpoint para cadastro das informações dos livros doados.
   "image_url": "https://exemplo.com"
 }
 ```
+
+### Post /Livros
+
+Retorna todos os livros cadastrados em nossa API.
+
+Resposta (200):
+
+```json
+{
+    "id":"1",
+    "titulo":"Ainda estou devendo aqui",
+    "categoria":"Drama/Finanças",
+    "autor":"Fernando Polia",
+    "image_url":"https://exemplo.com"
+}
+```
+
+## Tecnologias Utilizadas
+
+´´´
+- Python 3
+- Flask
+- SQLite
+- Flask-CORS
+´´´
