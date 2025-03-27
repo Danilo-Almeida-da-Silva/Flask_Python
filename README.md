@@ -76,10 +76,8 @@ Resposta (200):
 
 ## Tecnologias Utilizadas
 
-´´´
-
   - Python 3
   - Flask
   - SQLite
   - Flask-CORS
-´´´
+    
