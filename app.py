@@ -1,8 +1,14 @@
 from flask import Flask, request, jsonify
-
+from flask_cors import CORS
 import sqlite3
 
 app = Flask(__name__)
+CORS(app)
+
+
+@app.route('/')
+def menu_inicial():
+    return "<h1>Bem vindo a API do LIvros Vai na Web!</h1>"
 
 
 @app.route('/pagar')
